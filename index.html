@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Items</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="fashion.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 4 cards -->
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="images/gents-fashion.jpeg"
+              class="card-img-top"
+              alt="..."  
+              onclick="Gents()" ....
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-center">Gents</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="images/ladies-fashion.jpg" 
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-center">Ladies</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 4 cards end-->
+    </div>
+    <script> 
+      function Gents()
+      {
+       window.location.href="gents.html";
+      }
+    </script>   
+  </body>
+</html>

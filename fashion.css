@@ -1,0 +1,29 @@
+.container {
+    /* background-color: blue; */
+    margin: 10% auto;
+  }
+  .card-title {
+    color:#dee2e6;
+  }
+  .h5, h5 {
+    font-size: 2.25rem;
+    font-family: emoji;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 550;
+    line-height: 17.2;
+}
+  /* .imgZoom {
+    overflow: hidden;
+    height: 100%;
+    background-color: aquamarine;
+  }
+  .imgZoom img {
+    transition: all 1.5s ease;
+  }
+  .imgZoom:hover img {
+    transform: scale(1.5);
+  } */
+  
+  
